@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Pizza Hut</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <div class="container background">
+<div class="row" id="navbar">
+    <div class="hide text-center p-2">
+        <i class="fas fa-bars"></i>
+    </div>
+    <ul class="nav bg">
+            <li class="nav-item font">
+                <a class="nav-link p-4 text-white" href="#">Home</a>
+            </li>
+            <li class="nav-item font">
+                <a class="nav-link p-4 text-white" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item font">
+                <a class="nav-link p-4 text-white" href="#about">About</a>
+            </li>
+            <li class="nav-item font">
+                <a class="nav-link p-4 text-white" href="#contact">Contact</a>
+            </li>
+    
+      
+    </ul>
+</div>
+<div class="row text-white">
+    <div class="col p-4 text-white head">
+        <h1>THIN CRUST<br> PIZZA</h1>
+        <p>Open from 12pm to 12am</p>
+        <div class="time font text-white head" id="MyClockDisplay" onload="showTime()">
+        
+        </div>
+    </div>
+</div>
+    
+    
+
+    </div>
+    <div class="container bg1 text-white" id="menu">
+        <div class="row text-center p-5">
+            <h1 >The Menu</h1>
+        </div>
+        <div class="row card1 p-5 text-center">
+            <div class="size col-sm-12 col-md-4">
+                <h2 class="menu-card p-3 border">
+                    Pizza
+                </h2>
+                <div class="item row p-5">
+                    <h4 class="text-danger">Margherita-$12.50</h4>
+                    <br>
+                    <p>Fresh tomatoes, fresh mozzarella, fresh basil</p>
+        <hr>
+        <br>
+        <h4 class="text-danger">Formaggio-$15.50</h4>
+                    <br>
+                    <p>Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
+        <hr>
+        <br>
+        <h4 class="text-danger">Chicken-$17.00</h4>
+                    <br>
+                    <p>Fresh tomatoes, mozzarella, chicken, onions</p>
+        <hr>
+        <br>
+        <h4 class="text-danger">Pineapple'o'clock<br>$16.50</h4>
+                    <br>
+                    <p>Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
+        <hr>
+        <br>
+        <h4 class="text-danger">Meat Town-$20.00</h4>
+                    <br>
+                    <p>Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</p>
+        <hr>
+        <br>
+        <h4 class="text-danger">Parma-$21.50</h4>
+                    <br>
+                    <p>Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</p>
+        <hr>
+        <br>
+        </div> 
+            </div>
+            <div class="size col-sm-12 col-md-4">
+                <h2 class="menu-card1 p-3 border">
+                    Pasta
+                </h2>
+                <div class="item1 row p-5">
+                    <h4 class="text-danger">Lasagna-$13.50</h4>
+                    <br>
+                    <p>Special sauce, mozzarella, parmesan, ground beef</p>
+        <hr>
+        <br>
+        <h4 class="text-danger">Ravioli-$14.50</h4>
+                    <br>
+                    <p>Ravioli filled with cheese</p>
+        <hr>
+        <br>
+        <h4 class="text-danger">Spaghetti Classica-$11.00</h4>
+                    <br>
+                    <p>Fresh tomatoes, onions, ground beef/p>
+        <hr>
+        <br>
+        <h4 class="text-danger">Seafood pasta-$25.50</h4>
+                    <br>
+                    <p>Salmon, shrimp, lobster, garlic</p>
+        <hr>
+        <br>
+    </div>
+            </div>
+            <div class="size col-sm-12 col-md-4">
+                <h2 class="menu-card2 p-3 border">
+                    Starter
+                </h2>
+                <div class="item2 row p-5">
+                    <h4 class="text-danger">Lasagna-$13.50</h4>
+                    <br>
+                    <p>Special sauce, mozzarella, parmesan, ground beef</p>
+        <hr>
+        <br>
+        <h4 class="text-danger">Ravioli-$14.50</h4>
+                    <br>
+                    <p>Ravioli filled with cheese</p>
+        <hr>
+        <br>
+        <h4 class="text-danger">Spaghetti Classica-$11.00</h4>
+                    <br>
+                    <p>Fresh tomatoes, onions, ground beef/p>
+        <hr>
+        <br>
+        <h4 class="text-danger">Seafood pasta-$25.50</h4>
+                    <br>
+                    <p>Salmon, shrimp, lobster, garlic</p>
+        <hr>
+        <br>
+    </div>
+            </div>
+            
+        
+ 
+    </div>
+
+    <div class="container bg2 p-5" id="about">
+        <div class="row text-center mt-5">
+            <h1>About</h1>
+            <p>The Pizza Restaurant was founded in blabla by Mr. Italiano in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+        </div>
+        <div class="row author p-5 d-flex flex-row align-items-center m-5">
+            <div class="col">
+                <img src="./images/chef.jpg" class="rounded rounded-circle" alt="nothing">
+                            </div>
+            <div class="col ">
+<p>The Chef? Mr. Italiano himself
+<br>
+    We are proud of our interiors.</p>
+            </div>
+            
+        </div>
+        <div class="row d-flex flex-row align-items-center">
+            <div class="col">
+<img src="./images/res.jpg" class="img-thumbnail" alt="nothing">
+            </div>
+<div class="col">
+<p>“Need food and a good place to eat? Welcome to our humble place where you can eat good food peacefully.”</p>
+</div>
+        </div>
+        <div class="row p-5">
+            <h1>Schedule</h1>
+        </div>
+        <div class="row d-flex flex-row align-items-center p-3">
+            <div class="col">
+                <p>Mon & Tue CLOSED</p>
+                <p>Wednesday 12.00 - 24.00</p>
+                <p>Thursday 10:00 - 24:00</p>
+            </div>
+<div class="col">
+    <p>Sunday <br>CLOSED</p>
+    <p>Friday 12.00 - 24.00</p>
+    <p>Saturday 10:00 - 24:00</p>
+</div>
+        </div>
+    </div>
+    <div class="container background2" id="contact">
+
+    </div>
+    <div class="container text-center p-5 bg2">
+        <h1 >
+            Contact
+        </h1>
+        <p>Find us at some address at some place or call us at 05050515-122330
+
+            FYI! We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+    <b>Reserve a table, ask for today's special or just send us a message:</b>
+        
+    <div class="row text-center p-3">
+        <label>Name</label>
+        <input type="text" class="name p-3" placeholder="Name">
+        <label>Customer</label>
+        <input type="number" id="quantity" class="number p-3" name="quantity" >
+        <label>Date</label>
+        <input type="date" class="p-3">
+        <label>Message</label>
+        <textarea></textarea>
+        <span><button type="submit" class="m-3 p-2 rounded">Send message</button></span>
+    </div>
+
+
+</div>
+<div class="container bg3 p-5 text-center">
+<p>Powered by @copyright 2020,Pizza Hut Restaurant</p>
+</div>
+    <script src="./script.js"></script>
+    <script src="./time.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
